@@ -1,0 +1,12 @@
+{
+  "name": "容器",
+  "icon": "icon-rongqi",
+  "children": [],
+  "fields": {
+    "padding": {
+      "label": "上下间距",
+      "type": "number",
+      "value": 0
+    }
+  }
+}
