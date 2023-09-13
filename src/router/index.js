@@ -7,14 +7,22 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
+    redirect: '/home'
+  },
+
+
+  {
+    path: '/home',
     name: 'home',
     component: () => import('@/views/home'),
   },
+
   {
     path: '/schema',
     name: 'schema',
     component: () => import('@/views/schema'),
-  }
+  },
+
 ]
 
 const router = new VueRouter({

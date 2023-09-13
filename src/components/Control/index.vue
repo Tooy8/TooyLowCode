@@ -16,13 +16,15 @@
     <div class="control-page">
       <div class="panel">
         <div class="panel-content">
-          <!-- 可根据实际需求选择是否需要物料组件 -->
+          <phone-ctn>
+            <!-- 可根据实际需求选择是否需要物料组件 -->
 
-          <!-- 不可嵌套物料 -->
-          <!-- <control-widget :widgets.sync="widgets" /> -->
+            <!-- 不可嵌套物料 -->
+            <!-- <control-widget :widgets.sync="widgets" /> -->
 
-          <!-- 递归可嵌套物料 -->
-          <control-nest-widget :widgets.sync="widgets" />
+            <!-- 递归可嵌套物料 -->
+            <control-nest-widget :widgets.sync="widgets" />
+          </phone-ctn>
         </div>
       </div>
     </div>
