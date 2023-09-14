@@ -51,9 +51,7 @@
           <el-button class="w-100 h48 f-white bg-theme r3 f18 lb-4" type="primary" @click="register">注册</el-button>
         </template>
       </div>
-      <div class="login-content-right">
-        <img class="w-100" src='../assets/image/logo.jpeg' />
-      </div>
+
     </div>
   </div>
 </template>
@@ -216,13 +214,7 @@ export default {
       }
     }
 
-    .login-content-right {
-      display: flex;
-      align-items: center;
-      width: 320px;
-      border-radius: 6px;
-      background: #fff;
-    }
+
   }
 }
 </style>
