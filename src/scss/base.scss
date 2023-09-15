@@ -19,12 +19,15 @@ page {
 .vh-100 {
     height: 100vh;
 }
+
 .h-100 {
     height: 100%;
 }
+
 .vw-100 {
     width: 100vw;
 }
+
 .w-100 {
     width: 100%;
 }
@@ -47,9 +50,11 @@ page {
 .inline-block {
     display: inline-block;
 }
+
 .block {
     display: block;
 }
+
 .inline {
     display: inline;
 }
@@ -58,6 +63,7 @@ page {
 .border-none {
     border: none !important;
 }
+
 .border-radius-0 {
     border-radius: 0 !important;
 }
@@ -77,6 +83,7 @@ page {
 .relative {
     position: relative !important;
 }
+
 .absolute {
     position: absolute !important;
 }
@@ -86,16 +93,19 @@ page {
     left: 0;
     top: 0;
 }
+
 .abs-left-bottom {
     position: absolute;
     left: 0;
     bottom: 0;
 }
+
 .abs-right-bottom {
     position: absolute;
     right: 0;
     bottom: 0;
 }
+
 .abs-right-top {
     position: absolute;
     right: 0;
@@ -119,12 +129,15 @@ page {
 .text-left {
     text-align: left !important;
 }
+
 .text-center {
     text-align: center !important;
 }
+
 .text-right {
     text-align: right !important;
 }
+
 .text-through {
     text-decoration: line-through !important; // 删除线
 }
@@ -136,6 +149,7 @@ page {
     margin-left: 5px;
     position: relative;
     transform: scaleY(0.6);
+
     &::after {
         content: "|";
         opacity: 0.4;
@@ -145,6 +159,7 @@ page {
 .nowarp {
     white-space: nowrap !important;
 }
+
 .warp {
     white-space: warp !important;
 }
@@ -159,9 +174,11 @@ page {
 
     // 隐藏滚动条
     &::-webkit-scrollbar {
-        display: none; /* Chrome Safari */
+        display: none;
+        /* Chrome Safari */
     }
 }
+
 // 开启横向滚动
 .scroll-x {
     overflow-y: hidden;
@@ -170,7 +187,8 @@ page {
 
     // 隐藏滚动条
     &::-webkit-scrollbar {
-        display: none; /* Chrome Safari */
+        display: none;
+        /* Chrome Safari */
     }
 }
 
@@ -198,41 +216,53 @@ page {
     &.flex-nowrap {
         flex-wrap: nowrap;
     }
+
     &.flex-wrap {
         flex-wrap: wrap;
     }
+
     &.flex-wrap-reverse {
         flex-wrap: wrap-reverse;
     }
+
     //横向对齐方式
     &.row-left {
         justify-content: flex-start;
     }
+
     &.row-right {
         justify-content: flex-end;
     }
+
     &.row-center {
         justify-content: center;
     }
+
     &.row-between {
         justify-content: space-between;
     }
+
     &.row-around {
         justify-content: space-around;
     }
+
     //纵向对齐方式
     &.col-top {
         align-items: flex-start;
     }
+
     &.col-bottom {
         align-items: flex-end;
     }
+
     &.col-center {
         align-items: center;
     }
+
     &.col-baseline {
         align-items: baseline;
     }
+
     &.col-stretch {
         align-items: stretch;
     }
@@ -240,25 +270,32 @@ page {
     // 纵向flex
     &.flex-column {
         flex-direction: column;
+
         //横向对齐方式
         &.row-center {
             align-items: center;
         }
+
         &.row-left {
             align-items: flex-start;
         }
+
         &.row-right {
             align-items: flex-end;
         }
+
         &.row-between {
             align-items: stretch;
         }
+
         &.col-center {
             justify-content: center;
         }
+
         &.col-top {
             justify-content: flex-start;
         }
+
         &.col-bottom {
             justify-content: flex-end;
         }
@@ -387,6 +424,7 @@ page {
         background-color: #00f;
     }
 }
+
 // font-size 10~100 px
 @for $i from 10 through 100 {
     .f#{$i} {
@@ -399,6 +437,7 @@ page {
     .m#{$i} {
         margin: #{$i}px !important;
     }
+
     .p#{$i} {
         padding: #{$i}px !important;
     }
@@ -409,24 +448,31 @@ page {
     .mt#{$i} {
         margin-top: #{$i}px !important;
     }
+
     .mr#{$i} {
         margin-right: #{$i}px !important;
     }
+
     .mb#{$i} {
         margin-bottom: #{$i}px !important;
     }
+
     .ml#{$i} {
         margin-left: #{$i}px !important;
     }
+
     .pt#{$i} {
         padding-top: #{$i}px !important;
     }
+
     .pr#{$i} {
         padding-right: #{$i}px !important;
     }
+
     .pb#{$i} {
         padding-bottom: #{$i}px !important;
     }
+
     .pl#{$i} {
         padding-left: #{$i}px !important;
     }
