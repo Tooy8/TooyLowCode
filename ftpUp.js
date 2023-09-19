@@ -1,15 +1,11 @@
 /*
  * @Description: 文件上传
- * @Autor: WangYuan
- * @Date: 2021-07-05 14:20:22
- * @LastEditors: WangYuan
- * @LastEditTime: 2022-02-11 10:24:26
  */
 
 const sftpUploader = require('sftp-uploader')
 const path = require('path')
 
-function resolve (dir) {
+function resolve(dir) {
   return path.join(__dirname, dir)
 }
 
