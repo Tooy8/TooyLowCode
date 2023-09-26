@@ -1,9 +1,6 @@
 /*
  * @Description: 商城配置数据
- * @Autor: WangYuan
- * @Date: 2021-09-28 15:05:58
- * @LastEditors: WangYuan
- * @LastEditTime: 2022-11-02 09:44:23
+
  */
 
 export const mallTypeList = [
