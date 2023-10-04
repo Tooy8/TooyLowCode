@@ -1,9 +1,5 @@
 /*
  * @Description: 屏幕适配  (当屏幕大于540时，默认设置屏幕为375)
- * @Autor: WangYuan
- * @Date: 2021-05-21 15:11:30
- * @LastEditors: WangYuan
- * @LastEditTime: 2021-05-21 15:57:44
  */
 (function (baseFontSize) {
     // 取消ios高清屏适配
