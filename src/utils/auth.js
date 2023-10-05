@@ -1,10 +1,4 @@
-/*
- * @Description: What's this for
- * @Autor: WangYuan
- * @Date: 2021-03-25 10:25:23
- * @LastEditors: WangYuan
- * @LastEditTime: 2021-12-15 17:17:02
- */
+
 import store from '@/store'
 
 const TokenKey = 'token'
