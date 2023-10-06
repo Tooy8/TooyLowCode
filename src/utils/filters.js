@@ -1,9 +1,5 @@
 /*
  * @Description: 全局过滤器
- * @Autor: WangYuan
- * @Date: 2021-09-15 19:48:43
- * @LastEditors: WangYuan
- * @LastEditTime: 2021-09-16 11:47:12
  */
 import Vue from 'vue'
 
