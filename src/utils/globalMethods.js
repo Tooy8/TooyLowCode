@@ -1,9 +1,5 @@
 /*
  * @Description: 全局方法注册
- * @Autor: WangYuan
- * @Date: 2021-03-31 20:00:34
- * @LastEditors: WangYuan
- * @LastEditTime: 2022-01-17 10:05:00
  */
 
 export default {
@@ -12,7 +8,7 @@ export default {
      * 生成随机数  （num 位随机数 + 时间戳）
      */
     Object.defineProperty(Vue.prototype, '$getRandomCode', {
-      value: function getRandomCode (num = 8, stamp = true) {
+      value: function getRandomCode(num = 8, stamp = true) {
         let data = [
           '0',
           '1',
@@ -91,7 +87,7 @@ export default {
      * 判断空数据 (boolean 为非空数据)
      */
     Object.defineProperty(Vue.prototype, '$isNull', {
-      value: function isNull (data) {
+      value: function isNull(data) {
         if (
           typeof data != 'boolean' &&
           (typeof data == 'undefined' || data == null || data == '')
@@ -107,7 +103,7 @@ export default {
      * 深拷贝
      */
     Object.defineProperty(Vue.prototype, '$cloneDeep', {
-      value: function cloneDeepFun (data) {
+      value: function cloneDeepFun(data) {
         return deepClone(data)
       }
     })
@@ -116,7 +112,7 @@ export default {
      * 根据组件名生成新组件
      */
     Object.defineProperty(Vue.prototype, '$getNewComponent', {
-      value: function getNewComponent (component) {
+      value: function getNewComponent(component) {
         let cmp = deepClone(Vue.prototype.$initializing[component])
         cmp.id = Vue.prototype.$getRandomCode(6)
         return cmp
@@ -129,7 +125,7 @@ export default {
      * @param {*} target 目标值
      */
     Object.defineProperty(Vue.prototype, '$isMid', {
-      value: function isMid (arr, target) {
+      value: function isMid(arr, target) {
         if (arr[0] <= target && arr[1] >= target) {
           return true
         }
@@ -144,7 +140,7 @@ export default {
      * @param {*} arrB
      */
     Object.defineProperty(Vue.prototype, '$isIntersection', {
-      value: function isIntersection (arrA, arrB) {
+      value: function isIntersection(arrA, arrB) {
         var max = [arrA[0], arrB[0]]
         var min = [arrA[1], arrB[1]]
 
@@ -162,14 +158,14 @@ export default {
      * @param {*} data     要转换像素  （px）
      */
     Object.defineProperty(Vue.prototype, '$pxTorem', {
-      value: function pxTorem (data) {
+      value: function pxTorem(data) {
         return data / 37.5 + 'rem'
       }
     })
   }
 }
 
-function deepClone (obj, hash = new WeakMap()) {
+function deepClone(obj, hash = new WeakMap()) {
   if (obj === null) return obj // 如果是null或者undefined我就不进行拷贝操作
   if (obj instanceof Date) return new Date(obj)
   if (obj instanceof RegExp) return new RegExp(obj)
