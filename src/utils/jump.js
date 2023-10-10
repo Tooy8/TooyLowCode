@@ -1,9 +1,5 @@
 /*
  * @Description: 平台通用跳转 （包括项目内，H5，小程序）
- * @Autor: WangYuan
- * @Date: 2021-07-07 11:02:11
- * @LastEditors: WangYuan
- * @LastEditTime: 2021-08-31 20:41:23
  */
 
 import Vue from 'vue'
