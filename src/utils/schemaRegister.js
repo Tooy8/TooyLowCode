@@ -1,10 +1,3 @@
-/*
- * @Description: 
- * @Autor: WangYuan
- * @Date: 2021-06-04 16:00:49
- * @LastEditors: WangYuan
- * @LastEditTime: 2021-11-09 15:37:58
- */
 
 
 import Vue from 'vue'
