@@ -1,10 +1,4 @@
-/*
- * @Description: What's this for
- * @Autor: WangYuan
- * @Date: 2021-05-21 19:57:10
- * @LastEditors: WangYuan
- * @LastEditTime: 2021-09-26 11:30:21
- */
+
 
 import Vue from 'vue'
 
