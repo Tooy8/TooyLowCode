@@ -1,20 +1,14 @@
-/*
- * @Description: What's this for
- * @Autor: WangYuan
- * @Date: 2021-09-24 10:19:13
- * @LastEditors: WangYuan
- * @LastEditTime: 2022-01-28 11:50:21
- */
+
 export default {
     props: {
-        id:{},
+        id: {},
         value: {},
         label: {
             type: String,
         },
         options: {
             type: Object,
-            default: () => {}
+            default: () => { }
         }
     },
 
@@ -34,8 +28,8 @@ export default {
     watch: {
         value: {
             immediate: true,
-            deep:true,
-            handler(newVal,oldVal) {
+            deep: true,
+            handler(newVal, oldVal) {
                 this.mValue = this.value;
             },
         },
