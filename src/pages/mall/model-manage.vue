@@ -1,10 +1,4 @@
-<!--
- * @Description: What's this for
- * @Autor: WangYuan
- * @Date: 2021-09-28 17:23:56
- * @LastEditors: WangYuan
- * @LastEditTime: 2022-11-02 09:55:39
--->
+
 <template>
   <div class="manage">
     <div class="manage-body">
