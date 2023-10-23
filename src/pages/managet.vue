@@ -1,9 +1,6 @@
 <!--
  * @Description: 商城管理
- * @Autor: WangYuan
- * @Date: 2021-06-10 15:46:39
- * @LastEditors: WangYuan
- * @LastEditTime: 2022-04-25 16:26:18
+
 -->
 <template>
   <div class="manage">
@@ -11,9 +8,7 @@
     <div class="manage-head">
       <div class="manage-head-content">
         <git-control />
-        <el-button size="small f-white bg-theme" @click="create"
-          >立即创建</el-button
-        >
+        <el-button size="small f-white bg-theme" @click="create">立即创建</el-button>
         <el-button size="small" @click="onLogout">退出</el-button>
       </div>
     </div>
@@ -46,11 +41,7 @@
         </template>
       </el-empty>
     </div>
-    <div
-      v-if="list.length == 0"
-      class="manage-loading"
-      v-loading="loading"
-    ></div>
+    <div v-if="list.length == 0" class="manage-loading" v-loading="loading"></div>
 
     <!-- 页尾 -->
     <div class="footer"></div>
@@ -164,9 +155,11 @@ export default {
 <style lang="scss" scoped>
 .manage {
   position: relative;
+
   // 隐藏滚动条
   &::-webkit-scrollbar {
-    display: none; /* Chrome Safari */
+    display: none;
+    /* Chrome Safari */
   }
 
   .manage-head {
@@ -283,12 +276,14 @@ export default {
       }
     }
   }
+
   .manage-loading {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
   .footer {
     height: 200px;
     width: 100%;
