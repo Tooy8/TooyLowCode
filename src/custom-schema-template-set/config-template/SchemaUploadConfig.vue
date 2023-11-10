@@ -1,10 +1,4 @@
-<!--
- * @Description: What's this for
- * @Autor: WangYuan
- * @Date: 2021-10-13 14:14:54
- * @LastEditors: WangYuan
- * @LastEditTime: 2021-11-12 17:17:48
--->
+
 <template>
   <div>
     <config-wrap title='必输配置'>
