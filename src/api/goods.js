@@ -1,9 +1,5 @@
 /*
  * @Description: 商品管理api
- * @Autor: WangYuan
- * @Date: 2021-09-22 15:51:56
- * @LastEditors: WangYuan
- * @LastEditTime: 2021-09-22 16:55:04
  */
 import request from '@/utils/request'
 
