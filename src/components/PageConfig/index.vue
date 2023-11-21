@@ -1,9 +1,6 @@
 <!--
  * @Description: 页面配置
- * @Autor: WangYuan
- * @Date: 2021-09-22 17:33:51
- * @LastEditors: WangYuan
- * @LastEditTime: 2022-01-18 16:10:43
+ 
 -->
 <template>
   <div class="p10">
